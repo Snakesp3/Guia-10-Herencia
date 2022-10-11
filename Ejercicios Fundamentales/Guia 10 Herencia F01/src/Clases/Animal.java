@@ -1,10 +1,9 @@
 
-package exercise_1.object;
+package Clases;
 
 
 public class Animal {
-    
-    protected String name;
+     protected String name;
     protected String food;
     protected int age;
     protected String breed;
