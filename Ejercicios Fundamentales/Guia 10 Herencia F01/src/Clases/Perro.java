@@ -1,17 +1,15 @@
 package Clases;
 
-public class Perro {
+ public class Perro extends Animal {
 
-    public class perro extends Animal {
-
-        public perro(String name, String food, int age, String breed) {
-            super(name, food, age, breed);
+        public Perro(String nombre, String alimento, int ano, String raza) {
+            super(nombre, alimento, ano, raza);
         }
 
         @Override
         public void feed() {
-            System.out.println("Hi, i am " + name + " a dog, i eat " + food);
+            System.out.println("El es " + nombre + " el de la vida Moderna, un Perro de "+ ano + " años de raza " +raza+ " y come "  + alimento  );
         }
     }
 
-}
+

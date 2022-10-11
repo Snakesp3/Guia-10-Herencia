@@ -2,20 +2,26 @@
 package Clases;
 
 
+
+
 public class Main_animales {
 
     
     public static void main(String[] args) {
-        Animal dog1 = new Dog("Stich", "Carnivorous",15,"Doberman");
-        dog1.feed();
-        
-        Animal dog2 = new Dog("Teddy","Croquettes",10,"chihuahua");
-        dog2.feed();
-        
-        Animal cat1 = new Cat("Pelusa","Cookies",15,"SiamÃ©s");
-        
-        Animal horse1 = new Horse("Spark","Grass",25,"Fino");
-        horse1.feed();
+        System.out.println("******************************************************************************************");
+        Animal p1 = new Perro("Roco", "Hambuerguesas",7,"Doberman");
+        p1.feed();
+        System.out.println("******************************************************************************************");
+         //System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        // System.out.println("**************************************************************************");
+        Animal c1 = new Gato("Hercules","Whiska",4,"Cordon con vereda");
+        c1.feed();
+        System.out.println("******************************************************************************************");
+       // System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+       // System.out.println("****************************************************************");
+        Animal h1 = new Caballo("Tornado","Pasto",12,"Mustang");
+        h1.feed();
+        System.out.println("******************************************************************************************");
     }
     
 }

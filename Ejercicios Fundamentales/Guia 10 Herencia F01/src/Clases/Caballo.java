@@ -7,12 +7,13 @@ package Clases;
 
 
 public class Caballo extends Animal {
-    public Caballo(String name, String food, int age, String breed) {
-        super(name,food,age,breed);
+    public Caballo(String nombre, String alimento, int ano, String raza) {
+        super(nombre,alimento,ano,raza);
     }
 
     @Override
     public void feed() {
-        System.out.println("Hi, i am "+name+" a horse, i eat "+food);
+        System.out.println("El es "+nombre+" un Caballo Culiado de "+ ano + " años de raza " +raza+ " y come " +alimento);
     }
 }
+

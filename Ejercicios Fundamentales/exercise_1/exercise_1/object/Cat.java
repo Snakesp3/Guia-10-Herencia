@@ -1,6 +1,9 @@
 
 package exercise_1.object;
 
+import Clases.Animal;
+
+
 /**
  *
  * @author Damian

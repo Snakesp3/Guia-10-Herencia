@@ -1,16 +1,19 @@
 package Clases;
 
-public class Gato {
 
-    public class gato extends Animal {
 
-        public gato(String name, String food, int age, String breed) {
-            super(name, food, age, breed);
+    public class Gato extends Animal {
+
+        public Gato(String nombre, String alimento, int ano, String raza) {
+            super(nombre, alimento, ano, raza);
         }
+
+              
 
         @Override
         public void feed() {
-            System.out.println("Hi, i am " + name + " a cat, i eat " + food);
+            System.out.println("El es " + nombre + " el de la Pelicula,un Gato de "+ano+ " años de raza " +raza+ " y come " + alimento);
         }
     }
-}
+
+
