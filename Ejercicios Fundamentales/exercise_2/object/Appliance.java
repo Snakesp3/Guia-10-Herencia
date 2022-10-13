@@ -97,7 +97,7 @@ public class Appliance {
         char letter = read.next().charAt(0);
         System.out.println("enter the weight of the Appliance");
         this.weight = read.nextDouble();
-        this.price = 1000d;
+        price = 1000d;
         testConsumption(letter);
         testColor(color);
     }

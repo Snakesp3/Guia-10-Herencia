@@ -7,10 +7,7 @@ package exercise_2.object;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Damian
- */
+
 public class TV extends Appliance{
     
        protected double resolution;
