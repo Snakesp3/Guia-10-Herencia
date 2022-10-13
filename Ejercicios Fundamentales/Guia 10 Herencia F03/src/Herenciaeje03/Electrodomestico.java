@@ -62,6 +62,11 @@ public class Electrodomestico {
         this.peso = peso;
     }
 
+    @Override
+    public String toString() {
+        return "Electrodomestico" + "precio: " + precio + " color: " + color + ", consumo: " + consumo + " peso: " + peso + " leer: " + leer +"";
+    }
+
 //    @Override
 //    public String toString() {
 //        return "Electrodomestico" + " precio: " + precio + " color: " + color + " consumo: " + consumo + " peso: " + peso + "";
@@ -106,7 +111,7 @@ public class Electrodomestico {
         System.out.println("Ingrese el consumo enegetico A,B,C,D,E,F");
         String color=leer.next();
         
-        System.out.println("Ingrese el color del electrodomestico");
+        System.out.println("Ingrese el color del electrodomestico Blanco,Negro,Rojo,Azul,Gris");
         char consumo=leer.next().charAt(0);
         
         System.out.println("Ingrese el peso del electrodomestico");
@@ -116,6 +121,8 @@ public class Electrodomestico {
         
         comprobarColor(color);
         comprobarConsumoEnergetico(consumo);
+        
+        
     }
     
 }

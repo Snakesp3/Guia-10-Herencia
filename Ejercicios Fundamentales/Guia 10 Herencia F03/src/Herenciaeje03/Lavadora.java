@@ -28,6 +28,11 @@ public class Lavadora extends Electrodomestico {
         this.carga = carga;
     }
 
+    @Override
+    public String toString() {
+        return "Lavadora" + " carga: " + carga +"";
+    }
+
   
 
   

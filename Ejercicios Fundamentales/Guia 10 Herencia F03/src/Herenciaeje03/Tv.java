@@ -39,6 +39,11 @@ public class Tv extends Electrodomestico{
         this.tdt = tdt;
     }
 
+    @Override
+    public String toString() {
+        return "Tv" + "resolucion:" + resolucion + " tdt: " + tdt + "";
+    }
+
   
     
     
