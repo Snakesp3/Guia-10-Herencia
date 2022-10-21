@@ -17,7 +17,8 @@ public abstract class Hotel extends Alojamiento {
 
     @Override
     public String toString() {
-        return "Hotel" + "\n Cantidad de Habitaciones:" + cantHab + "\n Numero de Camas:" + numeroCamas + "\n Cantidad de Pisos:" + cantPisos + "\n Precio de habitacion:" + "$"+precioHab + "";
+        return "           \n           ***HOTEL"
+                + "*****************************\n" + "\n Cantidad de Habitaciones:" + cantHab + "\n Numero de Camas:" + numeroCamas + "\n Cantidad de Pisos:" + cantPisos + "\n Precio de habitacion:" + "$"+precioHab + "";
     }
     
     

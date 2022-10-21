@@ -16,7 +16,8 @@ public class Extra_hotelero extends Alojamiento {
 
     @Override
     public String toString() {
-        return super.toString() + "\n Extra Hotelero" + "\n Privado:" + privado + "\n Metros:" + metros + "Mtrs";
+      
+        return super.toString() + "\n Extra Hotelero" + "\n Privado:" + privado + "\n Metros:" + metros + " Mtrs";
     }
     
     

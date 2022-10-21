@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package booking;
 
-/**
- *
- * @author nico_
- */
+
 public class Hotel_4 extends Hotel {
 
     protected boolean gimnasio;
@@ -49,7 +42,7 @@ public class Hotel_4 extends Hotel {
     @Override
     public String toString() {
 
-        return super.toString() + "\n Hotel 4 Estrellas" + "\n Gimnasio:" + gimnasio + "\n Nombre Restoran: " + nombre_resto + "\n Capacidad Restauran:" + cap_rest +" Personas";
+        return super.toString()+"\n" + "\n     <<<Hotel 4 Estrellas>>>\n" + "\n Gimnasio:" + gimnasio + "\n Nombre Restoran: " + nombre_resto + "\n Capacidad del Restaurante:" + cap_rest +" Personas";
     }
 
     @Override

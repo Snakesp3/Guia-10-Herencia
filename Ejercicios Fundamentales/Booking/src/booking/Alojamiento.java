@@ -20,7 +20,7 @@ public class Alojamiento {
 
     @Override
     public String toString() {
-        return "Alojamientos" + "\n Nombre:" + nombre + "\n Direccion:" + direccion + "\n Localidad:" + localidad + "\n Gerente=" + gerente +"";
+        return "Alojamientos" + "\n Nombre:" + nombre + "\n Direccion:" + direccion + "\n Localidad:" + localidad + "\n Gerente:" + gerente +"";
     }
 
 }

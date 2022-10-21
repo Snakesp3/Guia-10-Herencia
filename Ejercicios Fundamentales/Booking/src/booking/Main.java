@@ -10,23 +10,17 @@ public class Main {
 
         ArrayList< Alojamiento> aloja = new ArrayList();
 
-        Hotel_4 h1 = new Hotel_4(true, "Resto Los picante", 45, 45, 80, 5, 50, "Hotelll", "Av Siempreviva", "Springfield", "Scaloneta");
-//        System.out.println(" El precio de la hab es de " + h1.preciohab());
-//        System.out.println(h1.toString());
-
-        System.out.println("------------------------------");
-
-        Hotel_5 h2 = new Hotel_5(3, 10, 3, true, "Resto Betancour and Cristian ", 60, 70, 120, 8, 50, "Telooo", "Alla", "Tuculandia", "Fer Chiquito");
-//        System.out.println(" El precio de la hab de 5 star es de " + h2.preciohab());
-//        System.out.println(h2.toString());
+        Hotel_4 h1 = new Hotel_4(true, "Los Mas Picantes", 45, 45, 80, 5, 50, "La Trampa", "Av Siempreviva", "Springfield", "El Seba");
+        
+        Hotel_5 h2 = new Hotel_5(3, 10, 3, true, "Resto Betancour and Cristian ", 60, 70, 120, 8, 50, "Telooo", "Alla", "Tuculandia", "Goku");
 
         Hotel_4 h3 = new Hotel_4(true, "Resto picante", 45, 4, 70, 15, 20, "Hotelll", "Av Siempreviva", "Springfield", "Scaloneta");
 
-        Hotel_5 h5 = new Hotel_5(5, 6, 1, false, "Resto Betancour and Cristian ", 40, 30, 60, 3, 40, "Telooo2", "Allala", "Tucu¿", "Chiquito");
+        Hotel_5 h5 = new Hotel_5(5, 6, 1, false, "Resto Betancour and Cristian ", 40, 30, 60, 3, 40, "Kakaroto", "Mar Del Plata", "Planeta Kaio", "Vegeta");
 
-        Camping c1 = new Camping(50, 3, false, false, 1000, "Camping La Serranita", "Que te ", "Cordoba", "Lalo");
+        Camping c1 = new Camping(50, 3, false, false, 1000, "Guerreros Z", "Miramar ", "3 Picos", "Gohan");
 
-        Camping c4 = new Camping(40, 1, true, true, 2000, "Camping 2", "Que ", "Catamarca", "Quique");
+        Camping c4 = new Camping(40, 1, true, true, 2000, "Universo 7", "Mendoza ", "San Luis", "Quique");
 
         Residencia r3 = new Residencia(45, true, true, true, 200, "La resi", "Messirve", "Santa Fe", "El pulga");
 
@@ -37,21 +31,18 @@ public class Main {
         aloja.add(c1);
         aloja.add(c4);
         aloja.add(r3);
-       
+
         mostrarTodos(aloja);
 
         System.out.println("***********");
-        
 
         masCaroaBarato(aloja);
 
         System.out.println("***********");
-        
 
         campingConResto(aloja);
 
         System.out.println("***********");
-        
 
         dtoResidencia(aloja);
         System.out.println("************");
